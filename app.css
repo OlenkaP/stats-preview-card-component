@@ -1,0 +1,101 @@
+body {
+    position: relative;
+    width: 1440px;
+    height: 800px;
+    background: #0A0C1C;
+}
+
+#preview{
+    background: #1B1937;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    position: absolute;
+    width: 1110px;
+    height: 446px;
+    left: 165px;
+    top: 177px;
+    box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
+border-radius: 8px;
+}
+
+#into_text{
+    padding: 71px 72px 59px ;
+    margin: 0;
+}
+
+#heading span{
+    color: #AB5CDB;
+}
+
+h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    padding-bottom: 24px;
+    margin: 0;
+}
+
+p{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+opacity: 0.75;
+padding-bottom: 72px;
+margin: 0;
+}
+
+.flex-container{
+    list-style: none;
+  display: flex;
+}
+.space-between { 
+    justify-content: space-between; 
+    padding: 0;
+  }
+
+.img-fluid{
+    opacity: 0.75;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly; /* Can be changed in the live sample */
+  }
+
+  #number{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  #text{
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.6;
+  }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+    line-height: 32px;
+    padding-bottom: 16px;
+}
+  img {
+    position:fixed;
+  }
+}
